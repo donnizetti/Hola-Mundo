@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width: 400px;">
+    <thead>
+        <tr>
+            <th> Nombre</th>
+            <th> Cantidad</th>
+            <th> Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mango</td>
+            <td>4</td>
+            <td>$ 20</td>
+        </tr>
+        <tr>
+            <td>Limon</td>
+            <td>12</td>
+            <td>$ 32</td>
+        </tr>
+        <tr>
+            <td>Papaya</td>
+            <td>16</td>
+            <td>$ 72</td>
+        </tr>
+    <tfoot>
+        <td></td>
+        <td>Total</td>
+        <td>$ 124</td>
+    </tfoot>
+    </tbody>
+    </table>
+
+
+    <!--Listas ordenadas, no ordenadas-->
+    
+    <!--LIsta No ordenadas-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+    <br>
+    <!--lista ordenada-->
+    <ol>
+        <li>Lista ordenada 1</li>
+        <li>Lista ordenada 2</li>
+        <li>Lista ordenada 3</li>
+        <br>
+    <!--cuando quiero que la lista empiece desde algun numero predeterminado-->    
+        <li value="60">Lista ordenada 4</li>
+        <li>Lista ordenada 5</li>
+        <li>Lista ordenada 6</li>
+        <li>Lista ordenada 7</li>
+        <br>
+        <li>
+            <!--lista dentro de otra lista-->
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            <!--cuando quiero que tenga letra, simbolo romano, simbolo de sistema u otra cosa-->
+                <br>
+                <li style="list-style-type: lower-alpha;">Elemento 4</li>
+                <li style="list-style-type:armenian;">Elemento 5</li>
+                <li style="list-style-type:georgian;">Elemento 6</li>
+                <li style="list-style-type:decimal-leading-zero;">Elemento 7</li>
+            </ol>
+        </li>
+    </ol>
+
+    <!--Cuadros de texto y botones-->
+    <form action="/formulario" method="POST"
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Comentario"></textarea>
+        <br>
+        <botton type="button"><img src="elefante.jpg"/> Tipo Boton</botton>
+        <botton type="reset">Tipo Reset</botton>
+        <botton type="submit">Tipo Submit</botton>
+    </form>
+
+
+    <hr>
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi Primer Heading</h2>
+    <h3>Mi Primer Heading</h3>
+    <h4>Mi Primer Heading</h4>
+    <h5>Mi Primer Heading</h5>
+    <h6>Mi Primer Heading</h6>
+    <h7>H7 ya no se aplica</h7>
+    <p>Etiqueta de parrafo</p>
+    <hr> <!--sirve para poner una linea de separacion-->
+    <p>Para separar lineas ahi que poner otro parrafo</p>
+    <h2>Este es para Titulos</h2>
+    <p>parrrafo de ejemplo</p>
+    <!--Este texto es un comentario y no va aparecer
+    en el explorador-->
+    <p>Este texto es solo un ejemplo de como se puede poner un texto mucho mas largo asi como 
+        para selecionar un texto con una <span style="color: blueviolet">etiqueta de span</span></p>
+        <!--La etiqueta span sirve para marcar una parte del texto y marcarla-->
+        <br><br>
+        <a href="https://www.google.com"> Ir a Google</a>
+        <br><br>
+        <img src="Img/mujer_fotografa.jpg" />
+        <a target="_blank" href="https://www.google.com"> Ir a Google pero se abre en una ventana nueva</a>
+        <img src="elefante.jpg" height="400"
+</body>
+</html>
+
